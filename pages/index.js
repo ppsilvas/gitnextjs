@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import { useState } from 'react';
 
 export { useState } from 'react';
@@ -31,4 +33,5 @@ function Contador() {
         
 }
 
+<SpeedInsights/>
 export default Home
